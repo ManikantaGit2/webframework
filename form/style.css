@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+}
+.sec2 {
+    width: 800px;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    margin-right: -400px;
+}
+.rform{
+    width: 800px;
+    font-size: 25px;
+    margin: auto;
+    color: slateblue;
+    padding: 10px 0px 10px 0px;
+    margin-right: -250px;
+    font-style: italic;
+
+
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    width: 650px;
+    z-index: -1;
+}
+.name{
+    margin-right: auto;
+    color: rgb(156, 73, 97);
+    padding: 5px;
+}
+.fname{
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border-color:black;
+    border-style: solid;
+}
+.sub{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color:rgb(65, 65, 157);
+    border-radius: 7px;
+    border-color:rgb(65, 65, 157) ;
+    border-style: solid;
+    margin-right: -300px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    border-style: solid;
+    background-color: rgb(40, 40, 152);
+    color: white;
+    border-color: rgb(40, 40, 152);
+}
